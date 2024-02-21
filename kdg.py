@@ -13,7 +13,7 @@ def to_markdown(text):
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 # Or use `os.getenv('GOOGLE_API_KEY')` to fetch an environment variable.
-GOOGLE_API_KEY='AIzaSyC5PX0ONjtT8rsUAQbknYAAxMJG2l1UXcM'
+GOOGLE_API_KEY='apikey'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
